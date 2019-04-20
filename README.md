@@ -25,7 +25,7 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 ```
 
-### 1.2 nestat
+### 1.2 netstat
 ```
 $ netstat -i
 Kernel Interface table
