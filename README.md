@@ -250,7 +250,7 @@ Keys:  Help   Display mode   Restart statistics   Order of fields   quit
 ### 5.2 netcat
 - Test Network Bandwidth
 ```
-$  netcat
+$  nc -l 7777
 ```
 
 ## (6) Diagnosing Packet Flows
@@ -258,5 +258,11 @@ $  netcat
 ### 6.1 tcpdump
 - View packet flow to see basic TCP 3 way handshake
 ```
-$ telnet
+$ tcpdump -i eth1 -w /tmp/packets.dump tcp port 22
+```
+
+### 6.1  tshark
+- View packet flow to see basic TCP 3 way handshake
+```
+$  tshark -i eth0 tcp port 80 and host 192.168.1.100
 ```
