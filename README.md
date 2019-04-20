@@ -256,9 +256,10 @@ $  nc -l 7777
 ## (6) Diagnosing Packet Flows
 
 ### 6.1 tcpdump
-- View packet flow to see basic TCP 3 way handshake
+- Capgture and view packet flow to see basic TCP 3 way handshake
 ```
-$ tcpdump -i eth1 -w /tmp/packets.dump tcp port 22
+$ tcpdump -i eth0 -w packets.pcap tcp port 80
+$ tcpdump -r packets.pcap
 ```
 
 ### 6.1  tshark
