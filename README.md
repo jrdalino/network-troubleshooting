@@ -219,6 +219,7 @@ Received 468 bytes from 172.31.0.2#53 in 10 ms
 ```
 
 ## (5) Diagnose Network Congestion
+- https://www.linode.com/docs/networking/diagnostics/diagnosing-network-issues-with-mtr/
 
 ### 5.1 mtr
 - detect network connection (best, worst, average roundtrip times)
