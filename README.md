@@ -1,4 +1,4 @@
-# Network Troubleshooting
+# Network Troubleshooting Notes
 
 ## (1) Diagnose Interfaces
 
